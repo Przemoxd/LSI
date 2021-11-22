@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { ExchangeComponent } from './components/exchange/exchange.component';
 import { ExchangeModule } from './components/exchange/exchange.module';
 
+import {SelectButtonModule} from 'primeng/selectbutton';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    SelectButtonModule,
     ExchangeModule,
   ],
   providers: [],
